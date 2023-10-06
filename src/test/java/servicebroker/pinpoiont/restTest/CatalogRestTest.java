@@ -125,7 +125,7 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * ?��?��?�� ID, 비�?번호�? ?��?��?��?���? ?��?��?��?��?�� 경우
+	 *
 	 */
 	@Test	
 	public void getCatalogTest_correctUser() {
@@ -159,7 +159,7 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * Version?�� ?���? ?��?��?��?��?�� 경우
+	 *
 	 */
 	@Test	
 	public void getCatalogTest_incorrectAPIVersion() {
@@ -315,7 +315,7 @@ public class CatalogRestTest {
 
 
 	/**
-	 * PUT?���? ?���?
+	 *
 	 */
 	@Test	
 	public void getCatalogTest_methodPUT() {
@@ -457,7 +457,7 @@ public class CatalogRestTest {
 	}
 
 	/**
-	 * HEAD�? ?���?
+	 *
 	 */
 	@Test	
 	public void getCatalogTest_methodHEAD() {

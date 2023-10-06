@@ -50,7 +50,7 @@ public class PinpointAdminServiceTest {
 	private PinpointConfig pinpointConfig = new PinpointConfig();
 
 	/**
-	 * 요청 정보로 부터 ServiceInstance를 생성합니다.
+	 *
 	 */
 	public ServiceInstance createServiceInstanceByRequest(CreateServiceInstanceRequest request) throws PinpointServiceException {
 		logger.debug("PinpointAdminService.createServiceInstanceByRequest");
@@ -85,7 +85,7 @@ public class PinpointAdminServiceTest {
 	}
 
 	/**
-	 * 요청 정보로부터 ServiceInstanceBinding 정보를 생성합니다.
+	 *
 	 */
 	public ServiceInstanceBinding createServiceInstanceBindingByRequest(CreateServiceInstanceBindingRequest request) throws PinpointServiceException, ServiceInstanceBindingExistsException {
 		logger.debug(this.getClass().getName()+":createServiceInstanceBindingByRequest");
@@ -169,7 +169,7 @@ public class PinpointAdminServiceTest {
 	}
 
 	/**
-	 * service instance 개수를 알아냄.
+	 *
 	 *
 	 * @return
 	 */
@@ -187,7 +187,7 @@ public class PinpointAdminServiceTest {
 		return iFileTot;
 	}
 
-	// DashboardUrl 생성
+	//
 	public String getDashboardUrl() throws PinpointServiceException {
 		String sDashboardUrl = "";
 		try {
@@ -200,7 +200,7 @@ public class PinpointAdminServiceTest {
 	}
 
 	/**
-	 * 서비스 존재 여부를 확인합니다.
+	 *
 	 *
 	 * @param instanceId
 	 * @return
